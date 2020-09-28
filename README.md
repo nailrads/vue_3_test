@@ -1,5 +1,10 @@
 # test_for_intterra
 
+## Hot-key
+```
+Key Q + Key R => Login 
+Key Q + Key E => Logout
+```
 ## Project setup
 ```
 yarn install
