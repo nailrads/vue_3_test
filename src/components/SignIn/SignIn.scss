@@ -1,0 +1,24 @@
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .sign-in__btn {
+    font-family: Roboto, 'Open Sans',sans-serif;
+    font-size: 12px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 2px solid var(--abbey);
+    background: transparent;
+    text-transform: uppercase;
+    transition: all 0.25s linear;
+    color: var(--white);
+
+    &:hover {
+      border-color: var(--danube);
+      background: var(--danube);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.nav {
+  background: var(--firefly);
+  height: 80px;
+
+  .nav__cnt {
+    display: flex;
+    align-items: center;
+    padding: 0 29px;
+  }
+
+  .nav__item {
+    margin-right: 16px;
+    padding-bottom: 2px;
+    color: var(--white);
+    border-bottom: 1px solid transparent;
+
+    &.--active {
+      border-color: inherit;
+    }
+  }
+}

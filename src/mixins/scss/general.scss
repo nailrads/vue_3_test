@@ -1,0 +1,41 @@
+@import 'colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  background: transparent;
+  border: none;
+}
+
+html,
+body,
+#app,
+.main,
+.cnt,
+.dashboard {
+  height: 100%;
+}
+
+.cnt {
+  position: relative;
+  width: 100%;
+  max-width: 928px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mineShaft)
+}
+
+button {
+  transition: opacity 0.25s linear;
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

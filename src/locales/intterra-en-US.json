@@ -1,0 +1,32 @@
+{
+  "SIGN_IN": "Sign In",
+  "INTRO_WELCOME": "Thanks for taking the time",
+  "INTRO_DESCRIPTION": "Technical Task for Intterra (link in Github)",
+
+  "PLOWING": "Вспашка",
+  "BOWLING": "Боронование",
+  "FERTILIZATION": "Внесение удобрений",
+  "WATERING": "Полив",
+  "RIGGING": "Прикатывание",
+  "HARVESTING": "Сбор урожая",
+
+  "EXCELLENT": "Отлично",
+  "SATISFACTORILY": "Удовлетворительно",
+  "BADLY": "Плохо",
+  "NOT_ASSESSMENT": "not assessment",
+
+  "JANUARY":  "JANUARY",
+  "FEBRUARY": "FEBRUARY",
+  "MARCH":  "MARCH",
+  "APRIL": "APRIL",
+  "MAY":  "MAY",
+  "JUNE": "JUNE",
+  "JULE":  "JULE",
+  "AUGUST": "AUGUST",
+  "SEPTEMBER":  "SEPTEMBER",
+  "OCTOBER": "OCTOBER",
+  "NOVEMBER":  "NOVEMBER",
+  "DECEMBER": "DECEMBER",
+
+  "HECTARE": "Ha"
+}

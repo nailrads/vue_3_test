@@ -1,0 +1,32 @@
+{
+  "SIGN_IN": "Войти",
+  "INTRO_WELCOME": "Спасибо что нашли время",
+  "INTRO_DESCRIPTION": "Техническое задания для Intterra (ссылка на Github)",
+
+  "PLOWING": "Вспашка",
+  "BOWLING": "Боронование",
+  "FERTILIZATION": "Внесение удобрений",
+  "WATERING": "Полив",
+  "RIGGING": "Прикатывание",
+  "HARVESTING": "Сбор урожая",
+
+  "EXCELLENT": "Отлично",
+  "SATISFACTORILY": "Удовлетворительно",
+  "BADLY": "Плохо",
+  "NOT_ASSESSMENT": "Нет оценки",
+
+  "JANUARY":  "ЯНВАРЬ",
+  "FEBRUARY": "ФЕВРАЛЬ",
+  "MARCH":  "МАРТ",
+  "APRIL": "АПРЕЛЬ",
+  "MAY":  "МАЙ",
+  "JUNE": "ИЮНЬ",
+  "JULE":  "ИЮЛЬ",
+  "AUGUST": "АВГУСТ",
+  "SEPTEMBER":  "СЕНТЯБРЬ",
+  "OCTOBER": "ОКТЯБРЬ",
+  "NOVEMBER":  "НОЯБРЬ",
+  "DECEMBER": "ДЕКАБРЬ",
+
+  "HECTARE": "Га"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>+ green</title>
+    <defs>
+        <filter x="-6.0%" y="-30.0%" width="112.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Field-Operations" transform="translate(-754.000000, -143.000000)">
+            <g id="Table" transform="translate(109.000000, 140.000000)">
+                <g id="_Buttons/Button-40-round-+-icon" filter="url(#filter-1)" transform="translate(639.000000, 0.000000)">
+                    <g id="+-green" transform="translate(15.000000, 12.000000)">
+                        <circle id="Oval" fill="#66CC66" cx="8" cy="8" r="8"></circle>
+                        <path d="M9,4 L9,7 L12,7 L12,9 L9,9 L9,12 L7,12 L7,9 L4,9 L4,7 L7,7 L7,4 L9,4 Z" id="Rectangle-34" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

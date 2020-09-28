@@ -1,0 +1,130 @@
+.operations {
+  background: var(--white);
+  box-shadow: 0 0 20px 0 rgba(#000, 0.2);
+  width: 100%;
+  padding: 23px 29px;
+
+  .operations__title {
+    font-size: 25px;
+    letter-spacing: -0.8px;
+    line-height: 31px;
+  }
+
+  .operations__header {
+    display: grid;
+    grid-template-areas: 'tabs tabs tabs btn';
+    grid-template-columns: repeat(2, 172px) 1fr 172px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    align-items: center;
+
+    //border: 1px solid;
+  }
+}
+
+.tabs {
+  grid-area: tabs;
+
+  .tab {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: -0.52px;
+    margin-right: 15px;
+    transition: opacity 0.25s linear;
+
+    &.--active {
+      color: var(--dodgerBlue);
+
+      &:hover {
+        opacity: 1;
+        cursor: initial;
+      }
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.btn {
+  grid-area: btn;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 172px;
+  color: var(--mineShaft);
+  background: var(--white);
+  font-size: 13px;
+  border-radius: 25px;
+  letter-spacing: -0.4px;
+  box-shadow: 0 2px 4px 0 rgba(#000, 0.1);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  thead {
+    background: var(--blackHaze);
+  }
+
+  td {
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    border-bottom: 1px solid var(--blackHaze);
+  }
+
+  th {
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+  }
+
+  .table__item {
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .table__multi {
+    display: flex;
+    align-items: center;
+  }
+
+  .assessment {
+    height: 10px;
+    width: 20px;
+    border-radius: 25px;
+    background: var(--blackHaze);
+    margin-right: 10px;
+
+    /**
+     * @variant {
+     *      EXCELLENT: 0
+     *      SATISFACTORILY: 1
+     *      BADLY: 2
+     * }
+     */
+
+    &[variant="0"] {
+      background-color: var(--mantis);
+    }
+    &[variant="1"] {
+      background-color: var(--kournikova);
+    }
+    &[variant="2"] {
+      background-color: var(--bittersweet);
+    }
+  }
+}
